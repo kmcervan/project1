@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname,"client/build")))
 
 
 app.use("/api/*",(_,res)=>{
-    res.json({data: "The API LIVES!!!!"})
+    res.json({data: "I am ALIVEEEEEEEE! "})
 })
 
 app.use("*", (_,res)=>{
@@ -20,21 +20,6 @@ app.use("*", (_,res)=>{
 })
 
 app.listen(port, ()=>{
-    console.log(`Server is alive on port ${port}`)
+    console.log(`Server lives on port ${port}`)
 })
-
-
-
-
-
-
-// console.log("It's alive!")
-// console.log(__dirname)
-// console.log(__filename)
-// console.log(process.env.USERNAME)
-// //.USER on macs!!!
-// console.log(process.env.PORT)
-// console.log(dotenv)
-// console.log(dotenv.PORT)
-// console.log(process.env.FOOD)
 
