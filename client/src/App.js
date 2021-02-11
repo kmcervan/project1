@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        API Data: {data}       
+        Data for API: {data}       
       </header>
     </div>
   );
